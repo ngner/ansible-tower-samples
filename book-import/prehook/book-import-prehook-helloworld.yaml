@@ -2,8 +2,8 @@
 apiVersion: tower.ansible.com/v1alpha1
 kind: AnsibleJob
 metadata:
-  name: hello_world
-  namespace: book-import
+  name: hello-world
+  namespace: open-cluster-management
   labels:
     app.kubernetes.io/name: book-import-prehook
 spec:
