@@ -3,11 +3,11 @@ apiVersion: tower.ansible.com/v1alpha1
 kind: AnsibleJob
 metadata:
   name: hello-world
-  namespace: open-cluster-management
+  namespace: bookimport
   labels:
     app.kubernetes.io/name: book-import-prehook
 spec:
-  tower_auth_secret: aapaccess
+  tower_auth_secret: aapaccess-bookimport
   job_template_name: book-import-helloworld
   extra_vars:
     app_name: bookimport
