@@ -2,13 +2,13 @@
 apiVersion: tower.ansible.com/v1alpha1
 kind: AnsibleJob
 metadata:
-  name: snow-create-change-record
-  namespace: book-import2
+  name: hello_world
+  namespace: book-import
   labels:
-    app.kubernetes.io/name: book-import2
+    app.kubernetes.io/name: book-import-prehook
 spec:
   tower_auth_secret: aapaccess
-  job_template_name: snow-create-change-record
+  job_template_name: book-import-helloworld
   extra_vars:
     app_name: bookimport
     change_request:
