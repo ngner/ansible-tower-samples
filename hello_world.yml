@@ -1,6 +1,6 @@
 - name: Hello World Sample
   hosts: all
-    tasks:
+  tasks:
     - name: Print some debug information 
       vars: 
         msg: |
