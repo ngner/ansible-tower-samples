@@ -6,6 +6,8 @@
         msg: |
           Extra Variables ("vars"):
           {{ vars.acmtesting }}
+          //////
+          {{ vars }}
     
       debug: 
         msg: "{{ msg.split('\n') }}"       
