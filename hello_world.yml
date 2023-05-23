@@ -5,7 +5,7 @@
       vars: 
         msg: |
           Extra Variables ("vars"):
-          {{ extra_vars }}
+          {{ vars }}
     
       debug: 
         msg: "{{ msg.split('\n') }}"       
